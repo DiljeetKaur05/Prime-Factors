@@ -15,3 +15,6 @@ def test_input_one():
 
 def test_input_two():
     assert generate_prime_factors(2) == [2]
+
+def test_input_three():
+    assert generate_prime_factors(3) == [3]
