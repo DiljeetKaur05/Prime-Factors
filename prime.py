@@ -1,4 +1,9 @@
+"""Generate the prime factors of an integer."""
+
+
 def generate_prime_factors(number):
+    """Return a list containing the prime factors of a number."""
+
     if not isinstance(number, int):
         raise ValueError("Input must be an integer")
 
