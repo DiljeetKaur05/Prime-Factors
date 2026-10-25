@@ -12,3 +12,6 @@ def test_invalid_input():
 
 def test_input_one():
     assert generate_prime_factors(1) == []
+
+def test_input_two():
+    assert generate_prime_factors(2) == [2]
